@@ -1,0 +1,104 @@
+#loadingGuage
+{
+	background-image: url(https://i.gadgets360cdn.com/large/april_fools_1491047804627.gif?output-quality=80);
+    width: 900px;
+    height: 450px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 145px;
+    left: 225px;
+    display:none;
+}
+#pageMask
+{
+	background-color: #000000;
+	width: 100%;
+    height: 100%;
+    position: fixed;    
+    top: 0;
+    left: 0;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+    display:none;
+}
+.bankHeaderDiv
+{
+    text-align: center;
+    font-size: 25px;
+    color: #000ccc;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bankCitiesSearchContainerDiv
+{
+    text-align: center;
+    border-top: 1px dashed;
+}
+.bankCitiesSearchDiv
+{
+    display: inline-block;
+    margin: 15px 0;
+}
+.bankCitiesContainerDiv,
+.bankSearchContainerDiv
+{
+	float: left;
+}
+.bankSearchContainerDiv
+{
+    margin-left: 210px;
+}
+.branchDetailsHeaderContainerDiv
+{
+	text-align: center;
+}
+.branchDetailsHeaderContDiv
+{
+	display: inline-block;
+	border: 1px solid;
+}
+.branchDetailsHeaderTextDiv,
+.branchDetailsContTextDiv
+{
+	width: 135px;
+	float: left;
+	text-align: center;
+	border-right: 1px solid black;
+}
+.branchDetailsHeaderTextDiv
+{
+    font-weight: bold;
+    color: magenta;
+}
+.branchDetailsHeaderTextDiv:last-child
+{
+	border-right: 0px;
+}
+.width50
+{
+    width: 50px !important;
+}
+.width75
+{
+    width: 75px !important;
+}
+.errorTextDiv
+{
+    font-size: 25px;
+    color: #cc0000;
+    margin-top: 25px;
+}
+.branchDetailsContDiv .branchDetailsContTextDiv:first-child
+{
+	border-left: 1px solid black;
+}
+.branchDetailsContainerDiv
+{
+	text-align: center;
+}
+.branchDetailsContDiv
+{
+	display: inline-block;
+    border-bottom: 1px solid black;
+}
